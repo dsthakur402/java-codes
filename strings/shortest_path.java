@@ -1,6 +1,6 @@
 public class shortest_path 
 {
-    public static int shortestpath(String dir)
+    public static float shortestpath(String dir)
     {
         int n = dir.length()-1; 
         int x=0,y=0;   
@@ -24,14 +24,14 @@ public class shortest_path
             }
         }
        
-        int dis=(int)Math.sqrt(x*x+y*y);
-        return dis;
+          return (float)Math.sqrt(x*x+y*y);
+      
     }
     public static void main(String[] args) 
     {
         String dir="WNEENESENNN";
-        int ans=shortestpath(dir);
-        System.out.println("The shortest path is "+ans);
+        
+        System.out.println("The shortest path is "+shortestpath(dir));
         
 
     }
