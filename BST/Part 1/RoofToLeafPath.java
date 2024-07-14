@@ -58,6 +58,7 @@ public class RoofToLeafPath {
         for (int i = 0; i < nodes.length; i++) {
             root = bst(root, nodes[i]);
         }
+        
         rootTOleaf(root, new ArrayList<>());
     }
 }
