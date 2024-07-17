@@ -10,7 +10,6 @@ public class BinarySearchTree{
         }
     }
 
-
     public static Node bst(Node root, int val){
         if(root == null){
             return new Node(val);
