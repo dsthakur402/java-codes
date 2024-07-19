@@ -1,6 +1,5 @@
 public class AVLtree {
     public static Node root;
-
     static class Node {
         int data, height;
         Node left, right;
