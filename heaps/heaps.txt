@@ -1,0 +1,14 @@
+Heap
+
+Binary Tree (BT): A binary tree is a tree structure where each node has at most two children.
+
+Complete Binary Tree (CBT):
+
+A CBT is a binary tree in which all levels are completely filled, except possibly the last level.
+If the last level isn’t fully filled, nodes are placed from left to right.
+Heap Order Property:
+
+Min-Heap: Each parent node is smaller than or equal to its children. Children >= Parent(minHeap)
+Max-Heap: Each parent node is larger than or equal to its children. Children <= Parent(maxHeap)
+
+
