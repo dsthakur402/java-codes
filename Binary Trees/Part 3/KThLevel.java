@@ -43,7 +43,7 @@ public class KThLevel{
                     break;
                 }
             } else {
-                if(i == k){
+                if(i == k){ 
                     System.out.println(curr.data);
                 }
                 if(curr.left != null){
