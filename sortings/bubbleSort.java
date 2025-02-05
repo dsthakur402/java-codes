@@ -34,3 +34,7 @@ public class bubbleSort
         }
     }
 }
+
+// Best Case: O(n)
+// Average Case: O(n²)
+// Worst Case: O(n²)

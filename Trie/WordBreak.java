@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Trie {
+public class WordBreak {
     static class Node {
         Node[] children = new Node[26];
         boolean isEndOfWord = false;
@@ -52,7 +52,7 @@ public class Trie {
 
     public static void main(String[] args) {
         String[] wordStrings = {"i", "like", "samsung", "sam", "mobile", "ice"};
-        String key = "ilikesjdj";
+        String key = "ilikesamndkn";
 
         for(String word : wordStrings){
             insert(word);

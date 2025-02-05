@@ -13,7 +13,7 @@ public class BinaryTree{
         }
     }
 
-    static class BinaryTree{
+    
         public static int idx = -1;
         public static Node buildTree(int[] nodes){
             idx++;
@@ -87,7 +87,7 @@ public class BinaryTree{
             if(root == null) return 0;
             return root.data + sum(root.left) + sum(root.right);
         }
-    }
+    
 
     public static void main(String[] args) {
         int[] nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};

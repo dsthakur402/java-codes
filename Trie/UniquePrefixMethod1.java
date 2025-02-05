@@ -44,9 +44,11 @@ public class UniquePrefixMethod1 {
             for (int j = 0; j < arr[i].length(); j++) {
                 int cnt = 0;
                 for(int k = 0; k < 26; k++){
+                    System.out.println(curr.children[k]);
                     if(curr.children[k] != null){
                         cnt++;
                     }
+                    System.out.println(cnt);
                 }
                 if(cnt == 1){
                     break;

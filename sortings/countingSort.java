@@ -10,7 +10,7 @@ public class countingSort
         int count[]=new int[largest+1];
         for(int j=0;j<a.length;j++)
         {
-            count[a[j ]]++;
+            count[a[j]]++;
         }
 
         int j=0;
